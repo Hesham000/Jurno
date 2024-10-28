@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Travel.Models.Tour>
+
+<h2 class="mb-4">Tours</h2>
+<a class="btn btn-primary mb-3" href="/Tours/Create">Add Tour</a>
+
+<div class="table-responsive">
+    <!-- Make the table responsive on smaller screens -->
+    <table class="table table-bordered table-hover w-100 mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Duration (Days)</th>
+                <th>Discount (%)</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tour in Model)
+            {
+                <tr>
+                    <td>@tour.Name</td>
+                    <td>@tour.Location</td>
+                    <td>@string.Format("{0:C}", tour.Price)</td>
+                    <td>@tour.Description</td>
+                    <td>@tour.DurationDays</td>
+                    <td>@tour.Discount</td>
+                    <td>@tour.Latitude</td>
+                    <td>@tour.Longitude</td>
+                    <td>
+                        <a class="btn btn-sm btn-warning" href="/Tours/Edit/@tour.Id">Edit</a>
+                        <button class="btn btn-sm btn-danger" onclick="confirmDelete(@tour.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Confirmation Script -->
+<script>
+    function confirmDelete(tourId) {
+        if (confirm("Are you sure you want to delete this tour?")) {
+            window.location.href = '/Tours/Delete/' + tourId;
+        }
+    }
+</script>

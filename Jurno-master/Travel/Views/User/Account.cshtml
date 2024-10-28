@@ -1,0 +1,127 @@
+﻿@using Travel.ViewModel
+@model UserAccountViewModel
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <!-- Profile Update Section -->
+            <div class="col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title mb-4 text-primary">
+                            <i class="bi bi-person-circle me-2"></i> My Profile
+                        </h2>
+                        <form asp-action="Update" method="post">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" asp-for="FullName" placeholder="Full Name" />
+                                <label asp-for="FullName">Full Name</label>
+                                <span asp-validation-for="FullName" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" asp-for="Email" readonly placeholder="Email" />
+                                <label asp-for="Email">Email</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100 py-3">
+                                <i class="bi bi-save2 me-2"></i> Update Profile
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Change Password Section -->
+            <div class="col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title mb-4 text-primary">
+                            <i class="bi bi-lock-fill me-2"></i> Change Password
+                        </h2>
+                        <form asp-action="ChangePassword" method="post">
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" name="CurrentPassword" placeholder="Current Password" />
+                                <label>Current Password</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" name="NewPassword" placeholder="New Password" />
+                                <label>New Password</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-warning w-100 py-3">
+                                <i class="bi bi-key-fill me-2"></i> Change Password
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-5 mt-5">
+            <!-- Past Bookings Section -->
+            <div class="col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title mb-4 text-primary">
+                            <i class="bi bi-calendar-check me-2"></i> Past Bookings
+                        </h2>
+                        @if (Model?.PastBookings != null && Model.PastBookings.Any())
+                        {
+                            <ul class="list-group">
+                                @foreach (var booking in Model.PastBookings)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <span>@booking.Destination</span>
+                                        <span class="badge bg-secondary">@booking.Date.ToShortDateString()</span>
+                                        <span>@booking.Status</span>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <div class="alert alert-secondary">
+                                No past bookings available. Start exploring our tours to book your next adventure!
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- Upcoming Bookings Section -->
+            <div class="col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title mb-4 text-primary">
+                            <i class="bi bi-calendar-event me-2"></i> Upcoming Bookings
+                        </h2>
+                        @if (Model?.UpcomingBookings != null && Model.UpcomingBookings.Any())
+                        {
+                            <ul class="list-group">
+                                @foreach (var booking in Model.UpcomingBookings)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <span>@booking.Destination</span>
+                                        <span class="badge bg-info">@booking.Date.ToShortDateString()</span>
+                                        <span>@booking.Status</span>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <div class="alert alert-warning">
+                                No upcoming bookings available.
+                                <a href="@Url.Action("Index", "Tours")" class="text-decoration-none">
+                                    Book a tour now!
+                                </a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

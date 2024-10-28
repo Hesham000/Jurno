@@ -1,0 +1,504 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\Dashboard\\Dashboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\travelguide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\travelguide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\models\\travelguide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\travelguide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\data\\traveldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\data\\traveldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\controllers\\travelguidescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\controllers\\travelguidescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\tours\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\tours\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\tours\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\tours\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\controllers\\tourscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\controllers\\tourscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\tours\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\tours\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\tours\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\tours\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|d:\\.net\\dashboard\\dashboard\\dashboard\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79ECD7FE-8ED8-450A-9EF8-62908FD81892}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TravelGuidesController.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\TravelGuidesController.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Controllers\\TravelGuidesController.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\TravelGuidesController.cs",
+              "RelativeToolTip": "Dashboard\\Controllers\\TravelGuidesController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAcwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:26:28.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T01:24:46.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T01:36:05.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TravelDbContext.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Data\\TravelDbContext.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Data\\TravelDbContext.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Data\\TravelDbContext.cs",
+              "RelativeToolTip": "Dashboard\\Data\\TravelDbContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:28:11.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\TravelGuide\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\TravelGuide\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\TravelGuide\\Index.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\TravelGuide\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T17:19:38.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TravelGuide.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\TravelGuide.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\TravelGuide.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\TravelGuide.cs",
+              "RelativeToolTip": "Dashboard\\Models\\TravelGuide.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:30:38.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Data\\SeedData.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Data\\SeedData.cs",
+              "RelativeToolTip": "Dashboard\\Data\\SeedData.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:28:49.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Controllers\\BookingsController.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Dashboard\\Controllers\\BookingsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:26:06.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Tours\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Tours\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Tours\\Index.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Tours\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T01:38:18.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Bookings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Bookings\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Bookings\\Index.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Bookings\\Index.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T01:39:22.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\Tour.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\Tour.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\Tour.cs",
+              "RelativeToolTip": "Dashboard\\Models\\Tour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:30:07.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Tours\\Create.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Tours\\Create.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Tours\\Create.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Tours\\Create.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAQwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T01:38:44.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Dashboard\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Dashboard\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T18:14:32.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ToursController.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\ToursController.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Controllers\\ToursController.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\ToursController.cs",
+              "RelativeToolTip": "Dashboard\\Controllers\\ToursController.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAAJoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:25:30.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\Booking.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\Booking.cs",
+              "RelativeToolTip": "Dashboard\\Models\\Booking.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:29:48.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Tours\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Tours\\Edit.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Tours\\Edit.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Tours\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T16:31:27.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Tours\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Tours\\Delete.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Tours\\Delete.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Tours\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T16:32:57.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\appsettings.json",
+              "RelativeDocumentMoniker": "Dashboard\\appsettings.json",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\appsettings.json",
+              "RelativeToolTip": "Dashboard\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T01:31:45.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Dashboard\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:29:20.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Dashboard\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:05:07.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Program.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Program.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Program.cs",
+              "RelativeToolTip": "Dashboard\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:32:01.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T12:03:22.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Dashboard\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T12:03:52.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Dashboard\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:24:27.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T01:40:04.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T01:37:16.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T01:36:32.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Dashboard\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:30:53.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\.NET\\Dashboard\\Dashboard\\Dashboard\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Dashboard\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:26:50.84Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

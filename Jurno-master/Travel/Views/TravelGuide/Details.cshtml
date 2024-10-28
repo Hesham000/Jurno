@@ -1,0 +1,93 @@
+﻿@model Travel.Models.TravelGuide
+
+<div class="container mt-5">
+    <!-- Destination Header -->
+    <div class="text-center">
+        <h1 class="display-4 fw-bold mb-3">@Model.Name</h1>
+        <img src="@Model.ImageUrl" alt="@Model.Name" class="img-fluid rounded mb-4 shadow" style="max-height: 400px; object-fit: cover;" />
+        <p class="lead">@Model.Description</p>
+    </div>
+
+    <hr class="my-5" />
+
+    <div class="row">
+        <!-- Activities Section -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h5 text-primary mb-3">
+                        <i class="bi bi-bicycle me-2"></i> Activities
+                    </h2>
+                    @if (Model.Activities != null && Model.Activities.Any())
+                    {
+                        <ul class="list-group">
+                            @foreach (var activity in Model.Activities)
+                            {
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i> @activity
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p class="text-muted">No activities available.</p>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Hotels Section -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h5 text-primary mb-3">
+                        <i class="bi bi-building me-2"></i> Hotels
+                    </h2>
+                    @if (Model.Hotels != null && Model.Hotels.Any())
+                    {
+                        <ul class="list-group">
+                            @foreach (var hotel in Model.Hotels)
+                            {
+                                <li class="list-group-item">
+                                    <i class="bi bi-star-fill text-warning me-2"></i> @hotel
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p class="text-muted">No hotels available.</p>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Restaurants Section -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h5 text-primary mb-3">
+                        <i class="bi bi-geo-alt-fill me-2"></i> Restaurants
+                    </h2>
+                    @if (Model.Restaurants != null && Model.Restaurants.Any())
+                    {
+                        <ul class="list-group">
+                            @foreach (var restaurant in Model.Restaurants)
+                            {
+                                <li class="list-group-item">
+                                    <i class="bi bi-heart-fill text-danger me-2"></i> @restaurant
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p class="text-muted">No restaurants available.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

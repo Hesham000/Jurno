@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Jurno Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Bootstrap Icons (for better visuals) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <style>
+        /* Body and overall layout styling */
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            min-height: 100vh;
+            width: 250px;
+            position: fixed;
+        }
+
+        .sidebar-heading {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #555;
+        }
+
+        .list-group-item {
+            border: none;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+        }
+
+            .list-group-item:hover {
+                background-color: #495057;
+                color: #fff;
+            }
+
+            .list-group-item i {
+                margin-right: 10px;
+            }
+
+        .active-link {
+            background-color: #007bff !important;
+            color: #fff !important;
+        }
+
+        /* Page content styling */
+        #page-content-wrapper {
+            margin-left: 250px;
+            padding: 40px;
+            transition: all 0.3s ease;
+        }
+
+        /* Navbar and Logout button styles */
+        .navbar {
+            padding: 15px 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+            .navbar .btn-logout {
+                color: #fff;
+                background-color: #dc3545;
+                border: none;
+            }
+
+        /* Media query for smaller devices */
+        @@media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                position: relative;
+            }
+
+            #page-content-wrapper {
+                margin-left: 0;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-dark text-white sidebar" id="sidebar-wrapper">
+            <div class="sidebar-heading text-center py-4">
+                <h3><i class="bi bi-geo-alt-fill"></i> Jurno Dashboard</h3>
+            </div>
+            <div class="list-group list-group-flush">
+                <a href="/" class="list-group-item list-group-item-action bg-dark text-white @((ViewContext.RouteData.Values["controller"] as string == "Home") ? "active-link" : "")">
+                    <i class="bi bi-house-fill"></i> Home
+                </a>
+                <a href="/Tours" class="list-group-item list-group-item-action bg-dark text-white @((ViewContext.RouteData.Values["controller"] as string == "Tours") ? "active-link" : "")">
+                    <i class="bi bi-geo-alt-fill"></i> Tours
+                </a>
+                <a href="/Bookings" class="list-group-item list-group-item-action bg-dark text-white @((ViewContext.RouteData.Values["controller"] as string == "Bookings") ? "active-link" : "")">
+                    <i class="bi bi-calendar-event-fill"></i> Bookings
+                </a>
+                <a href="/TravelGuides" class="list-group-item list-group-item-action bg-dark text-white @((ViewContext.RouteData.Values["controller"] as string == "TravelGuide") ? "active-link" : "")">
+                    <i class="bi bi-calendar-event-fill"></i> TravelGuide
+                </a>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a href="/Account/Logout" class="list-group-item list-group-item-action bg-dark text-white">
+                        <i class="bi bi-box-arrow-right"></i> Logout (@User.Identity.Name)
+                    </a>
+                }
+                else
+                {
+                    <a href="/Account/Login" class="list-group-item list-group-item-action bg-dark text-white">
+                        <i class="bi bi-box-arrow-in-right"></i> Login
+                    </a>
+                }
+            </div>
+        </div>
+        <!-- /Sidebar -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper" class="p-4">
+            <div class="navbar navbar-light bg-light shadow-sm">
+                <span class="navbar-text">Welcome to your dashboard, @User.Identity.Name!</span>
+                <button class="btn btn-logout">Logout</button>
+            </div>
+
+            <main class="container-fluid mt-4">
+                @RenderBody()
+            </main>
+        </div>
+        <!-- /Page Content -->
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Render the 'Scripts' section -->
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

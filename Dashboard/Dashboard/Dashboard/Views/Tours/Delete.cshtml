@@ -1,0 +1,14 @@
+﻿@model Travel.Models.Tour
+
+<h2>Delete Tour</h2>
+
+<div class="alert alert-danger">
+    <h4>Are you sure you want to delete this tour?</h4>
+    <p><strong>@Model.Name</strong> located in <strong>@Model.Location</strong> with a price of <strong>@Model.Price</strong>.</p>
+</div>
+
+<form method="post" asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" href="@Url.Action("Index", "Tours")">Cancel</a>
+</form>
